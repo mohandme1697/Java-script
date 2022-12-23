@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>create an function</title>
+    <script>
+        function process()
+        {
+            var first=document.getElementsByTagName('li')[2];
+            first.style.color='blue'
+            first.style.borderStyle='double';
+
+            // let second=document.getElementById('Basic');
+            // second.style.color='red';
+            // second.style.textTransform='uppercase';
+        }
+    </script>
+</head>
+<body>
+    <h2>Basic function creation</h2>
+    <ol onclick="process()">web pages
+        <li>python</li>
+        <li>java</li>
+        <li>react js</li>
+        <li id="Basic">node js</li>
+        <li>angular js</li>
+    </ol>
+</body>
+</html>
